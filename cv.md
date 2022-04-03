@@ -21,7 +21,6 @@ I am an aspiaring front-end developer based in Saint-Petersburg. My goal is to l
 -   JavaScript(ES5,ES6)
 -   Figma
 -   Git, GitHub
-
 -   IDE VS Code
 
 ## Code examples
@@ -49,7 +48,7 @@ function highAndLow(numbers){
 ## Education
 
 -   **Peter the Great St.Petersburg Polytechnic University**
-    (control in technical systems)
+    (Management in techincal systems)
 -   **freeCodeCamp courses**: HTML/CSS, JavaScript
 
 ## Languages
