@@ -1,10 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV Rautkin</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Rautkin Andrey</title>
 </head>
 <body>
+    <h1 class="container">Andrey Rautkin</h1>
+    <!-- /.container -->
+    <section class="container" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li>E-mail: MRgreenTHECristaL@yandex.ru</li>
+            <li><a href="https://github.com/Slumrag">GitHub</a> </li>
+            <li>Discord: @Slumrag</li>
+            <li>Telegram: @Slumrag</li>
+        </ul>
+    </section>
+    <!-- /#contacts.container -->
+    <section class="container" id="about">
+        <h2>About me</h2>
+        <p>I am an aspiaring front-end developer based in Saint-Petersburg. My goal is to learn and improve my programming skills
+        to become a profecient developer.</p>
+    </section>
+    <!-- /#about.container -->
+    <section class="container" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML
+            </li>
+            <li>CSS
+            </li>
+            <li>JavaScript(ES5,ES6)
+            </li>
+            <li>Figma
+            </li>
+            <li>Git, GitHub
+            </li>
+            <li>IDE VS Code</li>
+        </ul>
+    </section>
+    <!-- /#skills.container -->
+    <section class="container" id="code-examples">
+        <h2>Code examples</h2>
+        <h3>from CodeWars.com:</h3>
+        <p>In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest
+        number.</p>
+        <code><pre>highAndLow(numbers){
+        const numArr=numbers.split(" ").map(i=>parseInt(i));
+        let max=Math.max(...numArr);
+        let min=Math.min(...numArr);
+        return [max,min].join(" ");
+        }</pre></code>
+    </section>
+    <!-- /#code-examples.container -->
+    <section class="container" id="experience">
+        <h2>Experience</h2>
+        <h3>My projects:</h3>
+        <ul>
+            <li><a href="https://slumrag.github.io/Cinema-project/">Cinema ticket booking website</a></li>
+            <li><a href="https://slumrag.github.io/Food-delivery-website/">Food delivery website</a></li>
+        </ul>
+    </section>
+    <!-- /#experience.container -->
+    <section class="container" id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><b>Peter the Great St.Petersburg Polytechnic University</b><br>
+            (Management in technical systems)</li>
+            <li><b>freeCodeCamp courses:</b> HTML/CSS, JavaScript</li>
+        </ul>
+    </section>
+    <!-- /#education.container -->
+    <section class="container" id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li><b>Russian</b> - native speaker</li>
+            <li><b>English</b> - B2/C1</li>
+        </ul>
+    </section>
+    <!-- /#languages.container -->
 </body>
 </html>
