@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" >
+    <link rel="stylesheet" href="style.css">
+    <title>CV Rautkin Andrey</title>
+</head>
+<body>
+    <header class="wrapper">
+        <nav class="navmenu full-bleed">
+            <ul class="navmenu__list">
+                <li><a class="navmenu__item" href="#about">about me</a></li>
+                <li><a class="navmenu__item" href="#experience">experience</a></li>
+                <li><a class="navmenu__item" href="#code-examples">code examples</a></li>
+                <li><a class="navmenu__item" href="#education">education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="sidebar-wrapper wrapper">
+        <aside class="sidebar">
+            <div class="profile">
+                <img class="profile__image" src="./img/smallerpfp.jpg" alt="profile photo" width="250" height="321">
+                <h1 class="profile__name">Andrey Rautkin</h1>
+                <p class="profile__job-title">Junior frontend developer</p>
+            </div>
+            <!-- /.profile -->
+            <section id="contacts">
+                <h2 class="content-header">Contacts</h2>
+                <ul class="list">
+                    <li>E-mail:&nbsp;<a class="link" href="mailto:MRgreenTHECristaL@yandex.ru">MRgreenTHECristaL@yandex.ru</a></li>
+                    <li>Discord:&nbsp;<a class="link" href="https://discord.com/users/slumrag">Slumrag</a></li>
+                    <li>Telegram:&nbsp;<a class="link" href="https://t.me/Slumrag">Slumrag</a></li>
+                </ul>
+            </section>
+            <!-- /#contacts.wrapper -->
+            <section id="skills">
+                <h2 class="content-header">Skills</h2>
+                <ul class="list">
+                    <li>HTML</li>
+                    <li>CSS, SCSS</li>
+                    <li>JavaScript(ES5,ES6), Typescript</li>
+                    <li>Figma</li>
+                    <li>WebPack</li>
+                    <li>Git, GitHub</li>
+                    <li>IDE VS Code</li>
+                </ul>
+            </section>
+            <!-- /#skills.wrapper -->
+        </aside>
+        <section class="content-wrapper" id="about">
+            <h2 class="content-header">About me</h2>
+            <p>I am an aspiring front-end developer based in Saint-Petersburg.
+            My goal is to learn and improve my fronted programming skills and make interesting projects.</p>
+        </section>
+        <!-- /#about.wrapper -->
+        <section class="content-wrapper" id="experience">
+            <h2 class="content-header">Experience</h2>
+            <p>Had an internship at Graitec Ltd. making layouts for online courses website (august 2022)</p>
+            <h3>My projects:</h3>
+            <ul class="list">
+                <li>
+                    <a class="link" href="https://github.com/Slumrag/rsschool-shelter">Animal shelter</a>
+                </li>
+                <li>
+                    <a class="link" href="https://github.com/Slumrag/tau-app">Control systems analysis</a>
+                </li>
+                <li>
+                    <a class="link" href="https://github.com/Slumrag/Food-delivery-website">Food delivery website</a>
+                </li>
+                <li>
+                    <a class="link" href="https://github.com/Slumrag/Cinema-project">Cinema ticket booking website</a>
+                </li>
+            </ul>
+        </section>
+        <!-- /#experience.wrapper -->
+        <section class="content-wrapper" id="code-examples">
+            <h2 class="content-header">Code examples</h2>
+            <h3>from CodeWars.com:</h3>
+            <p>In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest
+            number.</p>
+            <code>highAndLow(numbers){
+    const numArr=numbers.split(" ").map(i=>parseInt(i));
+    let max=Math.max(...numArr);
+    let min=Math.min(...numArr);
+    return [max,min].join(" ");
+    }</code>
+        </section>
+        <!-- /#code-examples.wrapper -->
+
+        <section class="content-wrapper" id="education">
+            <h2 class="content-header">Education</h2>
+            <ul class="list">
+                <li><b>Peter the Great St.Petersburg Polytechnic University</b><br>
+                (Management in technical systems)</li>
+                <li><b>freeCodeCamp courses:</b> HTML/CSS, JavaScript</li>
+            </ul>
+        </section>
+        <!-- /#education.wrapper -->
+        <section class="content-wrapper" id="languages">
+            <h2 class="content-header">Languages</h2>
+            <ul class="list">
+                <li><b>Russian</b> - native speaker</li>
+                <li><b>English</b> - B2/C1</li>
+            </ul>
+        </section>
+        <!-- /#languages.wrapper -->
+    </main>
+    <footer class="footer-wrapper full-bleed">
+            <div class="footer-content wrapper">
+                <a class="link" href="https://github.com/Slumrag">My GitHub</a>
+                <p class="year">2023</p>
+                <a class="link" href="https://rs.school/js/">
+                    <img src="./img/rs_school_js.svg" alt="rs school" width="80" >
+                </a>
+            </div>
+    </footer>
+</body>
+</html>
